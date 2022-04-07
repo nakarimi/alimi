@@ -1,0 +1,57 @@
+diff --git a/vendor/morilog/jalali/src/CalendarUtils.php b/vendor/morilog/jalali/src/CalendarUtils.php
+index 88b5da842..3aa5f1f89 100644
+--- a/vendor/morilog/jalali/src/CalendarUtils.php
++++ b/vendor/morilog/jalali/src/CalendarUtils.php
+@@ -630,40 +630,40 @@ class CalendarUtils
+         $ret = '';
+         switch ($month) {
+             case '1':
+-                $ret = 'فروردین';
++                $ret = 'حمل';
+                 break;
+             case '2':
+-                $ret = 'اردیبهشت';
++                $ret = 'ثَور';
+                 break;
+             case '3':
+-                $ret = 'خرداد';
++                $ret = 'جَوزا';
+                 break;
+             case '4':
+-                $ret = 'تیر';
++                $ret = 'سَرَطان';
+                 break;
+             case '5':
+-                $ret = 'مرداد';
++                $ret = 'اَسَد';
+                 break;
+             case '6':
+-                $ret = 'شهریور';
++                $ret = 'سُنبُله';
+                 break;
+             case '7':
+-                $ret = 'مهر';
++                $ret = 'مِیزان';
+                 break;
+             case '8':
+-                $ret = 'آبان';
++                $ret = 'عَقرَب';
+                 break;
+             case '9':
+-                $ret = 'آذر';
++                $ret = 'قَوس';
+                 break;
+             case '10':
+-                $ret = 'دی';
++                $ret = 'جدی';
+                 break;
+             case '11':
+-                $ret = 'بهمن';
++                $ret = 'دلو';
+                 break;
+             case '12':
+-                $ret = 'اسفند';
++                $ret = 'حوت';
+                 break;
+         }
+ 

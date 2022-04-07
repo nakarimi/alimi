@@ -1,0 +1,109 @@
+// Responsivness
+@media only screen and (min-width: 420px) {
+  .width-80 .vs-popup {
+    min-width: 80% !important;
+  }
+  .width-70 .vs-popup {
+    min-width: 70% !important;
+  }
+  .width-60 .vs-popup {
+    min-width: 60% !important;
+  }
+  .width-50 .vs-popup {
+    min-width: 50% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .proposaltable .header-table > div {
+    margin: auto !important;
+  }
+}
+@media (max-width: 576px) {
+  .sm-row-custom .vx-col {
+    width: 100% !important;
+  }
+  .project-label{
+    margin-bottom: 15px !important;
+  }
+  #proposalTable{
+    justify-content: center !important;
+  }
+  .proposaladdbtn{
+    margin: auto !important;
+    padding: 10px !important;
+  }
+}
+@media (min-width: 768px) {
+  
+}
+@media (max-width: 767px) {
+  .sm-row-custom{
+    display: flow-root !important;
+  }
+  .sm-tab-hide{
+    display: none !important;
+  }
+  .ms-tab-show{
+    display: flex !important;
+  }
+  .wizard-footer-right{
+    margin-right: -10px;
+  }
+  .reverse-col {
+    flex-direction: column-reverse !important;
+  }
+  .sm-flex {
+    display: flex !important;
+  }
+  .sm-justify-center {
+    justify-content: center !important;
+  }
+
+  .sm-items-center {
+    align-items: center !important;
+  }
+  .sm-w-full{
+    width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .sm-dis-contents{
+    display: contents !important;
+  }
+  .sm-flex {
+    display: flex !important;
+  }
+  .sm-justify-center {
+    justify-content: center !important;
+  }
+
+  .sm-items-center {
+    align-items: center !important;
+  }
+  .sm-w-full{
+    width: 100% !important;
+  }
+  .balance_list_currency_toggle .radio-group {
+    // margin-top: 5px;
+  }
+  #data-list-thumb-view .vs-con-table .vs-table--header {
+    // display: -webkit-inline-box !important;
+  }
+  .proposaladdbtn {
+    display: flex !important;
+    justify-content: center !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.white-space-no-wrap *, .white-space-no-wrap {
+  white-space: nowrap !important;
+}
+.proposaladdbtn .vs-button-text {
+  white-space: nowrap;
+}
+.vs__dropdown-menu {
+  max-height: 150px !important;
+  overflow-y: scroll !important;
+}

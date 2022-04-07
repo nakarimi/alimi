@@ -1,0 +1,2 @@
+For the Notification table set the enum or option list as 'A', 'B', 'normal'. 
+Error: Data truncated for column 'type' at row 1 (SQL: insert into `notifications`)
